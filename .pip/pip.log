@@ -1,0 +1,25 @@
+Downloading/unpacking vertualenvwrapper
+  Getting page https://pypi.python.org/simple/vertualenvwrapper/
+  Could not fetch URL https://pypi.python.org/simple/vertualenvwrapper/: 404 Client Error: Not Found (vertualenvwrapper does not exist)
+  Will skip URL https://pypi.python.org/simple/vertualenvwrapper/ when looking for download links for vertualenvwrapper
+  Getting page https://pypi.python.org/simple/
+  URLs to search for versions for vertualenvwrapper:
+  * https://pypi.python.org/simple/vertualenvwrapper/
+  Getting page https://pypi.python.org/simple/vertualenvwrapper/
+  Could not fetch URL https://pypi.python.org/simple/vertualenvwrapper/: 404 Client Error: Not Found (vertualenvwrapper does not exist)
+  Will skip URL https://pypi.python.org/simple/vertualenvwrapper/ when looking for download links for vertualenvwrapper
+  Could not find any downloads that satisfy the requirement vertualenvwrapper
+Cleaning up...
+  Removing temporary dir /tmp/pip_build_root...
+No distributions at all found for vertualenvwrapper
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/pip/basecommand.py", line 122, in main
+    status = self.run(options, args)
+  File "/usr/lib/python2.7/dist-packages/pip/commands/install.py", line 278, in run
+    requirement_set.prepare_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 1178, in prepare_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/usr/lib/python2.7/dist-packages/pip/index.py", line 277, in find_requirement
+    raise DistributionNotFound('No distributions at all found for %s' % req)
+DistributionNotFound: No distributions at all found for vertualenvwrapper
