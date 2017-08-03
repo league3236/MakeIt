@@ -24,10 +24,10 @@ def spider(page,max_pages):
                 print(tname[number].get_text()+" : "+tsum[number].get_text())
                 number = number + 1
             cho  = soup.find_all("ul",{"class":"summary-info"})
-            print(cho[0].get_text())
+            print(cho[0].get_text().strip())
             
         page = page+1
         print('=======================================================================================')
     return None
 
-spider(55500,55605)
+spider(55504,55505)

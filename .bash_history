@@ -180,3 +180,293 @@ python clor.py
 vi clor.py
 python clor.py
 vi clor.py
+ls
+cd ..
+ll
+cd league3236
+ls
+cd Line
+ls
+source test/bin/activate
+ls
+cd line
+cd linebot
+ls
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+sudo apt-get install git-core
+ls
+cd ..
+ls
+cd ..
+ls
+pwd
+git init
+ls
+git status
+git add.
+git commit -m "2017-07-31 14:22"
+git remote add origin https://github.com/league3236/MakeIt.git
+git push origin master
+git push origin +master
+ls
+git status
+git add .
+git commit -m "2017-07-31 14:28"
+git remote add origin https://github.com/league3236/MakeIt.git
+git push origin master
+git push origin +master
+git remote add origin https://github.com/league3236/MakeIt.git
+git push -u origin master
+git remote add origin https://github.com/league3236/MakeIt.git
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/league3236/MakeIt.git
+git push -u origin master
+vi test.py
+git commit -m "first commit"
+git remote add origin https://github.com/league3236/MakeIt.git
+git push -u origin master
+git add a_text_file.txt 
+ls
+git add test.py
+git commit -m "Initial commit."
+git init
+git config --glaobal user.name "kwak"
+git config --global user.name "kwak"
+git config --global user.email "league3236@gmail.com"
+git remote add origin https://github.com/league3236/MakeIt.git
+git add -A
+git commit -m "first"
+ll
+cd ./Line/
+ll
+git add -A
+git commit -m "first"
+git remote add origin https://github.com/league3236/MakeIt.git
+touch test.txt
+git add -A
+git commit -m "first"
+ll
+git push
+git push -u origin master
+ls
+cd ..
+ls
+cd league3236/
+ls
+cd Line
+ls
+source test/bin/activate
+ls
+sudo apt-cache search mysql-server
+sudo apt-get install mysql-server-5.5
+mysql -u root -p
+ls
+mysql -u root -p
+ls
+cd line
+ls
+cd linebot
+ls
+vi clor.py
+python clor.py
+vi clor.py
+python clor.py
+vi clor.py
+vi clordate.py
+ls
+python clordate.py 
+python clor.py 
+vi clordate.py
+python clor.py 
+python clordate.py 
+vi clordate.py
+python clordate.py 
+vi clordate.py
+python clordate.py 
+vi clordate.py
+python clordate.py 
+vi clordate.py
+python clordate.py 
+vi clordate.py
+python clordate.py
+mysql -u root -p
+CREATE TABLE 'competition'(
+'Ctitle' varchar(100) NOT NULL,
+'Carea' varchar(30) NOT NULL,
+'Chost' varchar(30),
+'Cinstitute' varchar(30),
+'Cperiod' varchar(30),
+'Ctarget' varchar(255),
+'Clink' varchar(255),
+primary key('Ctitle'),
+);mysql -u root -p
+mysql -u root -p
+pip
+pip show MySQL-python
+pip install MySQL-python
+pip show MySQL-python
+ls
+vi testmysql.py
+python testmysql.py 
+sudo apt-get install python-mysqldb
+python testmysql.py 
+pip install MySQL-python
+aptitude show python-dev | grep ^State
+apt-get install python-dev
+sudo apt-get install python-dev
+aptitude show python-dev | grep ^State
+pip install MySQL-python
+aptitude show libmysqlclient-dev | grep ^State
+apt-get install libmysqlclient-dev
+sudo apt-get install libmysqlclient-dev
+aptitude show libmysqlclient-dev | grep ^State
+pip install MySQL-python
+ls
+python testmysql.py 
+ls
+vi tesmysql.py
+ls
+vi testmysql.py 
+python testmysql.py 
+vi testmysql.py 
+ls
+vi clordate.py
+python clordate.py
+vi clordate.py
+python clordate.py
+vi clordate.py
+python clordate.py
+vi clordate.py
+
+python clordate.py
+vi clordate.py
+python clordate.py
+vi clordate.py
+python clordate.py
+mysql -u root -p
