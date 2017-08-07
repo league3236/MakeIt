@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import requests
 import re
 import MySQLdb
@@ -27,17 +28,17 @@ def spider(page, max_pages):
             t_area = tsum[0].get_text().strip()
             # this title set
             print(t_area)
-            print("Carea set up")
+            print("C_area set up")
 
             t_host = tsum[1].get_text().strip()
             # this title set
             print(t_host)
-            print("Chost set up")
+            print("C_host set up")
 
             t_institute = tsum[2].get_text().strip()
             # this title set
             print(t_institute)
-            print("Cinstitute set up")
+            print("C_institute set up")
 
             t_period = tsum[3].get_text().strip()
             cmd = re.compile(r"(\w).*")
@@ -45,28 +46,41 @@ def spider(page, max_pages):
             tt_period = matchobj.group(0)
             # this title set
             print(tt_period)
-            print("Cperiod set up")
+            print("C_period set up")
 
             t_target = tsum[4].get_text().strip()
             # this title set
             print(t_target)
-            print("Carea set up")
+            print("C_area set up")
 
-            t_link = tsum[8].find('a')['href']
+            try:
+                t_link = tsum[8].find('a')['href']
             # this title set
+            except:
+                t_link = ""
             print(t_link)
-            print("Clink set up")
+            print("C_link set up")
 
-            #cho = soup.find_all("ul", {"class": "summary-info"})
-            #print(cho[0].get_text())
+            try:
+                cho  = soup.find_all("ul",{"class":"summary-info"})
+                t_all = cho[0].get_text().strip()
+            except:
+                cho = soup.find_all("pre",{"class":"old-summary"})
+                t_all = cho[0].get_text().strip()
+            
+            #t_all = cho[0].get_text().strip()
+            
+            print("C_all set up")
 
-            sql = """insert into competition(C_title,C_area,C_host,C_institute,C_period,C_target,C_link)
-                     values (%s, %s, %s,%s, %s, %s,%s)"""
-            cur.execute(sql, (title,t_area,t_host,t_institute,t_period,t_target,t_link))
+            sql = """insert into competition(C_title,C_area,C_host,C_institute,C_period,C_target,C_link,C_all)
+                     values (%s, %s, %s,%s, %s, %s,%s,%s)"""
+            cur.execute(sql, (title,t_area,t_host,t_institute,t_period,t_target,t_link,t_all))
             con.commit()
 
         page = page + 1
         print('=======================================================================================')
     return None
 
-spider(110,120)
+
+spider(8342,55800)
+

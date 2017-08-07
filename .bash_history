@@ -470,3 +470,69 @@ python clordate.py
 vi clordate.py
 python clordate.py
 mysql -u root -p
+ls
+cd ..
+ls
+cd league3236
+ls
+cd Line
+ls
+source test/bin/activate
+ls
+cd linebot
+ls
+mysql -u root -p
+ls
+vi cordate.py
+ls
+vi clordate.py
+vi clor.py
+cat clor.py
+vi
+ls
+cat clordate.py
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd Line
+cd LEAGUE3236
+cd league3236/
+ls
+add -a ALL
+git add -a ALL
+sudo git add -A
+git add -A
+sudo git add -A
+sudo git commit -m "2017-08-03-15:24"
+sudo git push
+ls
+cd ..
+ls
+cd league3236/
+ls
+mysql -u root
+mysql -u root -p
+ls
+cd ..
+ls
+cd league3236/
+ls
+cd Line
+ls
+source test/bin/activate
+ls
+cd line
+ls
+cd linebot/
+ls
+vi clordate.py
+python clordate.py 
+vi clordate.py
+python clordate.py 
+vi clordate.py
+python clordate.py 
+ls

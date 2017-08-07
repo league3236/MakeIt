@@ -14,7 +14,7 @@ def spider(page,max_pages):
         title = find[6].get_text()
         print('=======================================================================================')
         if title == 'QUESTION & ANSWER':
-            print('event not in'+page)
+            print('event not in'+str(page))
         else:
             print(title)
             tname = soup('th')
@@ -23,11 +23,15 @@ def spider(page,max_pages):
             for number in range(0,9):
                 print(tname[number].get_text()+" : "+tsum[number].get_text())
                 number = number + 1
-            cho  = soup.find_all("ul",{"class":"summary-info"})
-            print(cho[0].get_text().strip())
+            try:
+                cho  = soup.find_all("ul",{"class":"summary-info"})
+                print(cho[0].get_text().strip())
+            except:
+                cho = soup.find_all("pre",{"class":"old-summary"})
+                print(cho[0].get_text().strip())
             
         page = page+1
         print('=======================================================================================')
     return None
 
-spider(55504,55505)
+spider(108,109)

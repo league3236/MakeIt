@@ -8,15 +8,18 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/usr
+~Msle0~/\<t_all\>
 
 # Command Line History (newest to oldest):
-:q!
 :wq
-:WQ
+:59
+:56
 :q
+:q!
+:WQ
 
 # Search String History (newest to oldest):
+? \<t_all\>
 ?/usr/bin/python
 ? \<spider\>
 
@@ -28,58 +31,74 @@
 
 # Registers:
 ""-	CHAR	0
-	8
+	7
 
 # File marks:
-'0  1  0  ~/Line/linebot/clor.py
-'1  48  0  ~/Line/linebot/clordate.py
-'2  1  0  ~/Line/linebot/cordate.py
-'3  6  65  ~/Line/linebot/clordate.py
-'4  66  23  ~/Line/linebot/clordate.py
-'5  20  44  ~/Line/linebot/clordate.py
-'6  72  13  ~/Line/linebot/clordate.py
-'7  1  0  ~/Line/linebot/testmysql.py
-'8  4  59  ~/Line/linebot/testmysql.py
-'9  1  0  ~/Line/linebot/tesmysql.py
+'0  61  10  ~/Line/linebot/clordate.py
+'1  57  49  ~/Line/linebot/clordate.py
+'2  85  9  ~/Line/linebot/clordate.py
+'3  56  12  ~/Line/linebot/clordate.py
+'4  1  0  ~/Line/linebot/clordate.py
+'5  70  11  ~/Line/linebot/clordate.py
+'6  86  0  ~/Line/linebot/clordate.py
+'7  37  0  ~/Line/linebot/clor.py
+'8  72  42  ~/Line/linebot/clordate.py
+'9  1  0  ~/Line/linebot/clor.py
 
 # Jumplist (newest first):
--'  1  0  ~/Line/linebot/clor.py
--'  48  0  ~/Line/linebot/clordate.py
+-'  61  10  ~/Line/linebot/clordate.py
 -'  1  0  ~/Line/linebot/clordate.py
+-'  57  49  ~/Line/linebot/clordate.py
+-'  85  9  ~/Line/linebot/clordate.py
+-'  56  12  ~/Line/linebot/clordate.py
+-'  70  11  ~/Line/linebot/clordate.py
+-'  86  0  ~/Line/linebot/clordate.py
+-'  37  0  ~/Line/linebot/clor.py
+-'  1  0  ~/Line/linebot/clor.py
+-'  72  42  ~/Line/linebot/clordate.py
+-'  71  12  ~/Line/linebot/clordate.py
+-'  36  0  ~/Line/linebot/clor.py
+-'  17  37  ~/Line/linebot/clor.py
+-'  1  0  ~/Line/linebot/test.py
+-'  1  0  ~/Line/linebot/test1.py
+-'  75  31  ~/Line/linebot/clordate.py
+-'  73  24  ~/Line/linebot/clordate.py
+-'  7  0  ~/Line/linebot/clordate.py
+-'  145  11  ~/Line/linebot/clordate.py
+-'  28  15  ~/Line/linebot/clor.py
+-'  157  8  ~/Line/linebot/clordate.py
+-'  133  0  ~/Line/linebot/clordate.py
 -'  1  0  ~/Line/linebot/cordate.py
--'  6  65  ~/Line/linebot/clordate.py
--'  66  23  ~/Line/linebot/clordate.py
--'  20  44  ~/Line/linebot/clordate.py
--'  17  8  ~/Line/linebot/clordate.py
--'  72  13  ~/Line/linebot/clordate.py
+-'  91  65  ~/Line/linebot/clordate.py
+-'  151  23  ~/Line/linebot/clordate.py
+-'  105  44  ~/Line/linebot/clordate.py
+-'  102  8  ~/Line/linebot/clordate.py
 -'  1  0  ~/Line/linebot/testmysql.py
 -'  4  59  ~/Line/linebot/testmysql.py
 -'  1  0  ~/Line/linebot/tesmysql.py
--'  58  23  ~/Line/linebot/clordate.py
--'  45  39  ~/Line/linebot/clordate.py
--'  2  7  ~/Line/linebot/clordate.py
--'  54  0  ~/Line/linebot/clordate.py
+-'  143  23  ~/Line/linebot/clordate.py
+-'  130  39  ~/Line/linebot/clordate.py
+-'  87  7  ~/Line/linebot/clordate.py
+-'  139  0  ~/Line/linebot/clordate.py
 -'  22  12  ~/Line/linebot/clor.py
 -'  24  42  ~/Line/linebot/clor.py
--'  30  15  ~/Line/linebot/clor.py
+-'  34  15  ~/Line/linebot/clor.py
 -'  1  5  ~/test.py
 -'  15  1  ~/Line/linebot/clor.py
 -'  18  12  ~/Line/linebot/clor.py
 -'  25  11  ~/Line/linebot/clor.py
 -'  23  66  ~/Line/linebot/clor.py
--'  26  20  ~/Line/linebot/clor.py
+-'  27  20  ~/Line/linebot/clor.py
 -'  16  5  ~/Line/linebot/clor.py
 -'  13  0  ~/Line/linebot/clor.py
 -'  19  31  ~/Line/linebot/clor.py
--'  28  14  ~/Line/linebot/clor.py
+-'  32  14  ~/Line/linebot/clor.py
 -'  12  33  ~/Line/linebot/clor.py
 -'  11  42  ~/Line/linebot/clor.py
--'  29  0  ~/Line/linebot/clor.py
+-'  33  0  ~/Line/linebot/clor.py
 -'  10  0  ~/Line/linebot/clor.py
 -'  8  25  ~/Line/linebot/clor.py
 -'  2  2  ~/Line/linebot/test1.py
--'  1  0  ~/Line/linebot/test1.py
--'  1  0  ~/Line/linebot/test.py
 -'  3  0  ~/Line/linebot/test.py
 -'  17  27  ~/Line/linebot/test.py
 -'  46  12  ~/Line/linebot/test.py
@@ -125,87 +144,114 @@
 -'  1  0  ~/Line/lineproject/lineproject/settings.py
 -'  39  9  ~/Line/lineproject/lineproject/settings.py
 -'  1  0  ~/Line/lineproject/lineproject/settings.py
--'  9  0  ~/Line/lineproject/lineproject/wsgi.py
--'  1  0  ~/Line/lineproject/lineproject/wsgi.py
--'  39  9  ~/Line/lineproject/lineproject/settings.py
--'  1  0  ~/Line/lineproject/lineproject/settings.py
--'  39  9  ~/Line/lineproject/lineproject/settings.py
--'  1  0  ~/Line/lineproject/lineproject/settings.py
--'  39  9  ~/Line/lineproject/lineproject/settings.py
--'  1  0  ~/Line/lineproject/lineproject/settings.py
--'  39  9  ~/Line/lineproject/lineproject/settings.py
--'  1  0  ~/Line/lineproject/lineproject/settings.py
--'  39  9  ~/Line/lineproject/lineproject/settings.py
--'  1  0  ~/Line/lineproject/lineproject/settings.py
--'  39  9  ~/Line/lineproject/lineproject/settings.py
--'  1  0  ~/Line/lineproject/lineproject/settings.py
--'  39  9  ~/Line/lineproject/lineproject/settings.py
 
 # History of marks within files (newest to oldest):
 
-> ~/Line/linebot/clor.py
-	"	1	0
-	^	22	13
-	.	23	12
-	+	6	0
-	+	6	0
-	+	7	15
-	+	30	7
-	+	30	1
-	+	30	0
-	+	31	0
-	+	30	0
-	+	12	71
-	+	30	0
-	+	12	81
-	+	11	53
-	+	12	95
+> ~/Line/linebot/clordate.py
+	"	61	10
+	^	61	11
+	.	61	11
+	+	157	18
 	+	1	0
-	+	12	91
-	+	11	41
-	+	12	87
+	+	140	12
+	+	128	12
+	+	132	18
+	+	87	7
+	+	128	12
+	+	130	12
+	+	129	0
+	+	130	39
+	+	130	39
+	+	120	23
+	+	125	28
+	+	133	25
+	+	143	23
+	+	157	7
+	+	157	0
+	+	157	0
+	+	158	0
+	+	157	0
+	+	157	0
+	+	157	0
+	+	157	0
+	+	158	0
+	+	157	13
+	+	105	44
+	+	88	0
+	+	92	0
+	+	151	0
+	+	91	66
+	+	157	8
+	+	157	11
+	+	157	8
+	+	85	17
+	+	1	0
+	+	73	31
+	+	70	27
+	+	70	15
+	+	70	76
+	+	71	46
+	+	72	22
+	+	71	46
+	+	72	42
+	+	71	46
+	+	69	27
+	+	64	12
+	+	70	12
+	+	72	11
+	+	69	49
+	+	68	0
+	+	66	49
+	+	85	8
+	+	84	1
+	+	84	1
+	+	84	0
+	+	85	7
+	+	85	8
+	+	85	0
+	+	85	0
+	+	85	0
+	+	86	0
+	+	85	10
+	+	57	16
+	+	61	15
+	+	60	26
+	+	61	11
+
+> ~/Line/linebot/clor.py
+	"	37	0
+	^	37	14
+	.	37	13
+	+	19	19
+	+	19	19
 	+	12	19
-	+	12	81
-	+	12	63
-	+	12	22
-	+	19	21
-	+	19	25
-	+	19	18
-	+	12	33
-	+	10	7
-	+	11	44
-	+	12	24
-	+	19	19
-	+	19	19
-	+	19	19
-	+	12	19
 	+	19	19
 	+	19	19
 	+	19	19
 	+	19	19
-	+	30	11
-	+	30	11
+	+	34	11
+	+	34	11
 	+	7	13
 	+	6	0
 	+	7	4
 	+	7	0
 	+	5	15
-	+	30	7
-	+	29	0
-	+	29	0
-	+	30	17
+	+	34	7
+	+	33	0
+	+	33	0
+	+	34	17
 	+	19	31
 	+	13	0
 	+	16	10
 	+	14	21
 	+	14	33
 	+	19	11
-	+	26	11
+	+	27	11
 	+	17	33
 	+	18	11
 	+	16	39
 	+	18	12
-	+	26	7
+	+	27	7
 	+	13	0
 	+	20	11
 	+	19	22
@@ -235,54 +281,65 @@
 	+	24	31
 	+	23	27
 	+	24	23
-	+	30	9
-	+	30	9
+	+	34	9
+	+	34	9
 	+	15	101
-	+	27	101
+	+	28	101
 	+	17	36
-	+	30	15
-	+	30	11
-	+	30	11
+	+	34	15
+	+	34	11
+	+	34	11
 	+	24	42
 	+	22	24
 	+	22	12
 	+	23	12
+	+	37	7
+	+	37	7
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	0
+	+	37	17
+	+	1	0
+	+	2	0
+	+	26	15
+	+	27	15
+	+	28	48
+	+	30	66
+	+	31	26
+	+	31	46
+	+	37	7
+	+	37	0
+	+	37	0
+	+	38	0
+	+	37	13
+	+	17	37
+	+	37	7
+	+	36	0
+	+	36	0
+	+	37	7
+	+	36	0
+	+	36	0
+	+	37	13
 	b	22	82
 
-> ~/Line/linebot/clordate.py
-	"	48	0
-	^	6	66
-	.	6	66
-	+	72	18
-	+	1	0
-	+	55	12
-	+	43	12
-	+	47	18
-	+	2	7
-	+	43	12
-	+	45	12
-	+	44	0
-	+	45	39
-	+	45	39
-	+	35	23
-	+	40	28
-	+	48	25
-	+	58	23
-	+	72	7
-	+	72	0
-	+	72	0
-	+	73	0
-	+	72	0
-	+	72	0
-	+	72	0
-	+	72	0
-	+	73	0
-	+	72	13
-	+	20	44
-	+	3	0
-	+	7	0
-	+	66	0
-	+	6	66
+> ~/Line/linebot/test.py
+	"	1	0
+	^	17	28
+	.	17	26
+	+	46	0
+	+	2	2
+	+	16	180
+	+	17	55
+	+	17	26
+
+> ~/Line/linebot/test1.py
+	"	1	0
+	^	2	3
+	.	2	2
+	+	12	0
+	+	2	2
 
 > ~/Line/linebot/cordate.py
 	"	1	0
@@ -310,23 +367,6 @@
 	^	1	6
 	.	1	5
 	+	1	5
-
-> ~/Line/linebot/test1.py
-	"	2	2
-	^	2	3
-	.	2	2
-	+	12	0
-	+	2	2
-
-> ~/Line/linebot/test.py
-	"	1	0
-	^	17	28
-	.	17	26
-	+	46	0
-	+	2	2
-	+	16	180
-	+	17	55
-	+	17	26
 
 > ~/Line/lineproject/app/views.py
 	"	1	0
